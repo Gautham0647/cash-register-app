@@ -13,6 +13,43 @@
     <div class="title">
         <p>CASH REGISTER</p>
     </div>
-    
+
+<main>
+    <div class="input-sec">
+        <label for="bill-input">Bill Amount:</label>
+        <input type="text" name="bill-input" id="bill-input">
+        <label for="cash-input">Cash given:</label>
+        <input type="text" name="cash-input" id="cash-input">
+        <button id="btn-check">Check</button>
+        <div class="error-handler"></div>
+    </div>
+
+    <table class="change-table">
+        <caption>Here's your change</caption>
+        <tr>
+            <th>Number of Notes</th>
+            <td class="number"></td>
+            <td class="number"></td>
+            <td class="number"></td>
+            <td class="number"></td>
+            <td class="number"></td>
+            <td class="number"></td>
+            <td class="number"></td>
+        </tr>
+
+        <tr>
+            <th>Note</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+        </tr>
+    </table>
+</main>
+
 </body>
+<script src="app.js"></script>
 </html>
