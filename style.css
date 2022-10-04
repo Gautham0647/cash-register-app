@@ -121,11 +121,11 @@ th, td {
 
 .icons i{
     margin: 0 2rem;
-    color: black;
+    color: rgb(17, 55, 117);
 }
 
 .icons i:hover{
-    color: #F87171;
+    color: #8b0e0e;
 }
 
 .bottom-container{
@@ -134,4 +134,17 @@ th, td {
     width: 100%;
     margin-top: auto;
     padding: 1rem 0;
+}
+
+.footer-link{
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.copyright{
+    color: rgb(13, 28, 79);
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.5rem;
 }
